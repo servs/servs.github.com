@@ -22,7 +22,8 @@ section article {
     border: 1px solid #ccc;
     width: 60%;
     min-width: 700px;
-    height: 216px;
+    min-height: 216px;
+    padding-bottom: 10px;
     top: 35%;
     margin-left: 20%;
     margin-right: 20%;
@@ -38,6 +39,10 @@ section article div p {
     text-align: justify;
     padding: 3px 8px 3px 3px;
     margin: 0;
+}
+
+section article div:first-child {
+    margin-bottom: 15px;
 }
 
 section article div p:first-child {
